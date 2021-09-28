@@ -36,7 +36,7 @@ public class Main {
                 long nanoTimeBefore = System.nanoTime();
 
                 /* Merge Sort */
-                MergeSort.generateRandomArrayOfInts();
+                MergeSort.generateRandomArrayOfInts(userNumResponse);
                 continueSorting = false;
 
                 // records nano time from start of sorting
@@ -44,7 +44,7 @@ public class Main {
 
                 // length of execution
                 long timeTakenToExecute = nanoTimeAfter - nanoTimeBefore;
-                System.out.println("Amount of nano seconds taken to execute: " + timeTakenToExecute);
+                System.out.println("\nAmount of nano seconds taken to execute: " + timeTakenToExecute);
             } else {
                 System.out.println("Please choose between Bubble or Merge.");
                 userResponse = scanner.next();

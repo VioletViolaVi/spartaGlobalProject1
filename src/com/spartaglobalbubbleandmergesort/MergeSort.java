@@ -79,10 +79,10 @@ public class MergeSort {
         }
     }
 
-    public static void generateRandomArrayOfInts(){
+    public static void generateRandomArrayOfInts(int userNum){
         // generate 10 random ints for merge sorting
         Random mergeRand = new Random();
-        int[] array = new int[10];
+        int[] array = new int[userNum];
         for (int i = 0; i < array.length; i++) {
             array[i] = mergeRand.nextInt(101);
         }
