@@ -2,10 +2,12 @@ package com.spartaglobalbubbleandmergesort;
 
 import java.util.Random;
 
-public interface MergeSortInterface {
-    // merge 2 sub arrays from array[]
-    // 1st sub array is array[firstNum...middleNum]
-    // 2nd sub array is array[middleNum+1...rightNum]
+public interface MergeSortInterface extends BubbleMergeInterface{
+    /*
+        - merge 2 sub arrays from array[]
+        - 1st sub array is array[firstNum...middleNum]
+        - 2nd sub array is array[middleNum+1...rightNum]
+    */
     static void mergeSorter(int array[], int firstNum, int middleNum, int rightNum) {
         // find sizes of 2 sub arrays to be merged
         int arraySize1 = middleNum - firstNum + 1;
@@ -80,7 +82,7 @@ public interface MergeSortInterface {
     }
 
     static void generateRandomArrayOfInts(int userNum){
-        // generate 10 random ints for merge sorting
+        // generate random ints for merge sorting
         Random mergeRand = new Random();
         int[] array = new int[userNum];
         for (int i = 0; i < array.length; i++) {
@@ -97,6 +99,8 @@ public interface MergeSortInterface {
         // print after merge sorting
         System.out.println("\nAfter merge sorting: ");
         printArray(array);
-    }
+        System.out.println();
 
+        BubbleMergeInterface.nanoEnd();
+    }
 }

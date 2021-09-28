@@ -3,7 +3,7 @@ package com.spartaglobalbubbleandmergesort;
 import java.util.ArrayList;
 import java.util.Random;
 
-public interface BubbleSortInterface {
+public interface BubbleSortInterface extends BubbleMergeInterface{
     // needed for overriding in BubbleSort class
     void BubbleSort(int anyNum);
 
@@ -33,9 +33,6 @@ public interface BubbleSortInterface {
         }
         System.out.println();
 
-        // nano time from start
-        long nanoStart = System.nanoTime();
-
         // checking 2 ints at a time to put in ascending order
         for (int i = 0; i < intArrayLength; i++) {
             for (int j = 0; j < intArrayLength; j++) {
@@ -47,9 +44,6 @@ public interface BubbleSortInterface {
             }
         }
 
-        // nano time at end
-        long nanoEnd = System.nanoTime();
-
         // prints ints after sorting
         System.out.println("After bubble sorting: ");
         for(int i = 0; i < intArray.size(); i++){
@@ -57,8 +51,6 @@ public interface BubbleSortInterface {
         }
         System.out.println();
 
-        // length of nano time
-        long nanoLength = nanoEnd - nanoStart;
-        System.out.println("Total nano seconds: " + nanoLength);
+        BubbleMergeInterface.nanoEnd();
     }
 }
