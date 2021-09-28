@@ -7,8 +7,16 @@ Using the information provided by the users, they will be shown how their number
 They will also be shown how long it took the method to sort the array, using the nanoTime() method.
 This product is for users who want to input a certain number of numbers and see them get arranged in order, as well as how long it took. 
 
+## Helpful Links
+- [Generating a random array of integers](https://www.tutorialspoint.com/generate-a-random-array-of-integers-in-java)
+- [Creating a Merge Sort algorithm](https://www.geeksforgeeks.org/merge-sort/)
+- [Creating a Bubble Sort algorithm](https://www.geeksforgeeks.org/bubble-sort/)
+- [Scanner class information](https://www.w3schools.com/java/java_user_input.asp)
+- [Ultilising the Scanner class](https://www.w3schools.com/java/showjava.asp?filename=demo_api_scanner)
 
-
+## Link to previous version of this project
+- This project is a continuation of the discontinued GitHub repository below:
+[(Old) Bubble & Merge Sort Project](https://github.com/VioletViolaVi/bubbleAndMergeSort)
 
 
 ## To do list:
@@ -32,14 +40,3 @@ This product is for users who want to input a certain number of numbers and see 
 - [] Add testing to project
 - [] Add exception handling try/catch code blocks
 - [] Complete part 2 of assignment
-
-
-
-
-
-[Link to old version of this project](https://github.com/VioletViolaVi/bubbleAndMergeSort)
-[#](https://www.tutorialspoint.com/generate-a-random-array-of-integers-in-java)
-[#](https://www.geeksforgeeks.org/merge-sort/)
-[#](https://www.geeksforgeeks.org/bubble-sort/)
-[#](https://www.w3schools.com/java/showjava.asp?filename=demo_api_scanner)
-[#](https://www.w3schools.com/java/java_user_input.asp)
