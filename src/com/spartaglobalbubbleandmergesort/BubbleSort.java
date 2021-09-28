@@ -21,14 +21,7 @@ public class BubbleSort implements BubbleSortInterface{
     }
 
 
-
-
-
-
-
-
-
-/* delete below later */
+/* delete below later maybe... */
 //    public BubbleSort(int anyNum) {
 //        this.anyNum = anyNum;
 //    }

@@ -3,7 +3,6 @@ package com.spartaglobalbubbleandmergesort;
 import java.util.Random;
 
 public interface MergeSortInterface {
-
     // merge 2 sub arrays from array[]
     // 1st sub array is array[firstNum...middleNum]
     // 2nd sub array is array[middleNum+1...rightNum]

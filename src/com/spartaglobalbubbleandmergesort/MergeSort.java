@@ -2,7 +2,7 @@ package com.spartaglobalbubbleandmergesort;
 
 import java.util.Random;
 /* below class doesn't seem to be in use... */
-public class MergeSort implements MergeSortInterface{
+public class MergeSort implements MergeSortInterface {
     // merge 2 sub arrays from array[]
     // 1st sub array is array[firstNum...middleNum]
     // 2nd sub array is array[middleNum+1...rightNum]
