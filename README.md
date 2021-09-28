@@ -41,15 +41,13 @@ This product is for users who want to input a certain number of numbers and see 
 - [x] Include ability for users to choose how many numbers in array
 - [x] Create interface file for both sorting methods
 - [x] Move all main method contents into own files
-
-- [] Put users choice making in an interface
-- [] Use demo repo for the factory method (switch statements)
-
-- [] Remove repetitive code from main method
+- [x] Put users choice making in an interface
+- [x] Use demo repo for the factory method (switch statements)
+- [x] Remove repetitive code from main method
 
 - [] Complete readme file
 
-- [] Incorporate MVC - & label/comment
+- [] Incorporate MVC - & label/comment (all but 'UsersChoices' are pretty much the M in MVC)
 - [] Incorporate SOLID principles - & label/comment
 - [] Implement OOP principles - & label/comment
 - [] Implement Facade pattern - & label/comment

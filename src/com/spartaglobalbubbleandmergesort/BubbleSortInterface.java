@@ -3,11 +3,11 @@ package com.spartaglobalbubbleandmergesort;
 import java.util.ArrayList;
 import java.util.Random;
 
-public interface BubbleSortInterface extends BubbleMergeInterface{
+public interface BubbleSortInterface extends BothSortsInterface {
     // needed for overriding in BubbleSort class
     void BubbleSort(int anyNum);
 
-    static void generateRandArrayOfNums(int userNum){
+    static void generateRandArrayOfNums(int userNum) {
         // empty arraylist of integers
         ArrayList<Integer> allNumbers = new ArrayList<>();
         // random numbers
@@ -51,6 +51,6 @@ public interface BubbleSortInterface extends BubbleMergeInterface{
         }
         System.out.println();
 
-        BubbleMergeInterface.nanoEnd();
+        BothSortsInterface.nanoEnd();
     }
 }

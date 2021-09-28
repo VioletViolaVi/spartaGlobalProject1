@@ -1,6 +1,6 @@
 package com.spartaglobalbubbleandmergesort;
 
-public class BubbleSort implements BubbleSortInterface{
+public class BubbleSort implements BubbleSortInterface {
     // instance variable for generating random numbers
     private int anyNum;
 
