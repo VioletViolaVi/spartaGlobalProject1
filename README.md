@@ -40,11 +40,11 @@ This product is for users who want to input a certain number of numbers and see 
 - [x] Create separate packages for each sort method/interface
 - [x] Include ability for users to choose how many numbers in array
 - [x] Create interface file for both sorting methods
+- [x] Move all main method contents into own files
 
 - [] Put users choice making in an interface
 - [] Use demo repo for the factory method (switch statements)
 
-- [] Move all main method contents into own files
 - [] Remove repetitive code from main method
 
 - [] Complete readme file
