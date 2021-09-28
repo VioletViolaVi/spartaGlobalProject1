@@ -36,7 +36,7 @@ public class Main {
                 long nanoTimeBefore = System.nanoTime();
 
                 /* Merge Sort */
-                MergeSort.generateRandomArrayOfInts(userNumResponse);
+                MergeSortInterface.generateRandomArrayOfInts(userNumResponse);
                 continueSorting = false;
 
                 // records nano time from start of sorting

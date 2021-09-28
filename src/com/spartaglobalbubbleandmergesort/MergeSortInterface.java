@@ -1,12 +1,13 @@
 package com.spartaglobalbubbleandmergesort;
 
 import java.util.Random;
-/* below class doesn't seem to be in use... */
-public class MergeSort implements MergeSortInterface{
+
+public interface MergeSortInterface {
+
     // merge 2 sub arrays from array[]
     // 1st sub array is array[firstNum...middleNum]
     // 2nd sub array is array[middleNum+1...rightNum]
-    public static void mergeSorter(int array[], int firstNum, int middleNum, int rightNum) {
+    static void mergeSorter(int array[], int firstNum, int middleNum, int rightNum) {
         // find sizes of 2 sub arrays to be merged
         int arraySize1 = middleNum - firstNum + 1;
         int arraySize2 = rightNum - middleNum;
@@ -57,7 +58,7 @@ public class MergeSort implements MergeSortInterface{
     }
 
     // main function that sorts array[firstNum...rightNum] using mergeSorter()
-    public static void sort(int array[], int firstNum, int rightNum) {
+    static void sort(int array[], int firstNum, int rightNum) {
         if (firstNum < rightNum) {
             // find middle point
             int middlePoint = firstNum + (rightNum - firstNum) / 2;
@@ -72,14 +73,14 @@ public class MergeSort implements MergeSortInterface{
     }
 
     // utility function to print array of its size
-    public static void printArray(int array[]) {
+    static void printArray(int array[]) {
         int arraySize = array.length;
         for (int i = 0; i < arraySize; i++) {
             System.out.print(array[i] + ", ");
         }
     }
 
-    public static void generateRandomArrayOfInts(int userNum){
+    static void generateRandomArrayOfInts(int userNum){
         // generate 10 random ints for merge sorting
         Random mergeRand = new Random();
         int[] array = new int[userNum];
@@ -98,4 +99,5 @@ public class MergeSort implements MergeSortInterface{
         System.out.println("\nAfter merge sorting: ");
         printArray(array);
     }
+
 }
