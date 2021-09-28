@@ -69,11 +69,11 @@ This product is for users who want to input a certain number of numbers and see 
 
 - [] Complete readme file
 
+- [] Add testing to project
+- [] Add exception handling try/catch code blocks
+- [] Complete part 2 of assignment
+
 - [] Incorporate MVC - & label/comment (all but 'UsersChoices' are pretty much the M in MVC)
 - [] Incorporate SOLID principles - & label/comment
 - [] Implement OOP principles - & label/comment
 - [] Implement Facade pattern - & label/comment
-
-- [] Add testing to project
-- [] Add exception handling try/catch code blocks
-- [] Complete part 2 of assignment
