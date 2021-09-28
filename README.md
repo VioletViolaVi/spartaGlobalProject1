@@ -7,6 +7,18 @@ Using the information provided by the users, they will be shown how their number
 They will also be shown how long it took the method to sort the array, using the nanoTime() method.
 This product is for users who want to input a certain number of numbers and see them get arranged in order, as well as how long it took. 
 
+## Features
+(features goes here)
+
+## Testing
+(testing goes here)
+
+## Deployment
+(deployment goes here)
+
+## Credits
+(credits goes here)
+
 ## Helpful Links
 - [Generating a random array of integers](https://www.tutorialspoint.com/generate-a-random-array-of-integers-in-java)
 - [Creating a Merge Sort algorithm](https://www.geeksforgeeks.org/merge-sort/)
