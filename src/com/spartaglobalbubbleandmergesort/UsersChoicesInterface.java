@@ -18,7 +18,7 @@ public interface UsersChoicesInterface extends BothSortsInterface {
                 MergeSortInterface.generateRandomArrayOfInts(userNumResponse);
             break;
             default:
-                System.out.println("Choose one: Bubble or Merge?");
+                System.out.println("You can only choose between Bubble and Merge.");
             break;
         }
     }
