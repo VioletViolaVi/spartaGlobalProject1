@@ -1,9 +1,7 @@
 package com.spartaglobalbubbleandmergesort;
 
-import java.util.Scanner;
-
-public class UsersChoices implements BothSortsInterface {
-    public void loopedUserAnswers() {
+public interface UsersChoicesInterface extends BothSortsInterface {
+    static void loopedUserAnswers() {
         // allows user to input response
         System.out.println("Choose one: Bubble or Merge?");
 

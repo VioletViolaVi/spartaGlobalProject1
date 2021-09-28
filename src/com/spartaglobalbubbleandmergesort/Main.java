@@ -7,7 +7,6 @@ public class Main {
             - how many numbers do they want?
             - do you want this looped?
         */
-        UsersChoices usersChoices = new UsersChoices();
-        usersChoices.loopedUserAnswers();
+        UsersChoicesInterface.loopedUserAnswers();
     }
 }
