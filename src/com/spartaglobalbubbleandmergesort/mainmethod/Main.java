@@ -1,4 +1,7 @@
-package com.bubbleandmergesort;
+package com.spartaglobalbubbleandmergesort.mainmethod;
+
+import com.spartaglobalbubbleandmergesort.spartaglobalbubblesort.BubbleSort;
+import com.spartaglobalbubbleandmergesort.spartaglobalmergesort.MergeSort;
 
 import java.util.Scanner;
 
