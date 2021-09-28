@@ -8,7 +8,27 @@ They will also be shown how long it took the method to sort the array, using the
 This product is for users who want to input a certain number of numbers and see them get arranged in order, as well as how long it took. 
 
 ## Features
-(features goes here)
+### ```Main````` Class 
+- This contains the main method where the entire project's code is run to be compiled.
+- The main method in this class contains ```UsersChoicesInterface.loopedUserAnswers();``` which is used to call the ```loopedUserAnswers()``` method in the ```UsersChoicesInterface``` interface, responsible for displaying the results of the user's input. 
+### ```BubbleSort``` Class 
+- This class implements the ```BubbleSortInterface``` interface which is responsible for sorting the random numbers using the bubble method.
+- It is responsible for ensuring its instance variable is accessible to the rest of the project using a getter.
+- It also has a method which overrides the abstract signature in ```BubbleSortInterface``` file.
+### ```BubbleSortInterface``` Interface
+- This interface extends from the ```BothSortsInterface``` interface.
+- It is responsible for generating a random array of numbers, with the number of numbers decided by the user included.
+- It contains the method responsible for sorting the array of numbers, following the conventional 'Bubble' procedure.
+- It also prints out the array before and after the sorting process as well as how long it took, using the ```nanoTime()``` method.
+### ```MergeSortInterface``` Interface
+- This interface extends from the ```BothSortsInterface``` interface.
+- It is responsible for dividing and merging 2 sub arrays, from the array of numbers generated.
+- It also prints out the array before and after the sorting process as well as how long it took, using the ```nanoTime()``` method.
+### ```BothSortsInterface``` Class 
+- This class 
+### ```UsersChoicesInterface``` Interface
+-
+### ```MergeSort``` Class (commented out)
 
 ## Testing
 (testing goes here)
