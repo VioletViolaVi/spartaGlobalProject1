@@ -38,11 +38,11 @@ This product is for users who want to input a certain number of numbers and see 
 - [x] Use separate GitHub for project
 - [x] Combine bubble and merge sort
 - [x] Create separate packages for each sort method/interface
+- [x] Include ability for users to choose how many numbers in array
 
 - [] Create interface file for both sorting methods
 - [] Put users choice making in an interface
 - [] Use demo repo for the factory method (switch statements)
-- [] Include ability for users to choose how many numbers in array
 
 - [] Complete readme file
 
