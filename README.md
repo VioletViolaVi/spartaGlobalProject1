@@ -38,17 +38,22 @@ This product is for users who want to input a certain number of numbers and see 
 - [x] Use separate GitHub for project
 - [x] Combine bubble and merge sort
 - [x] Create separate packages for each sort method/interface
-- [] Move all main method contents into own files
+
 - [] Create interface file for both sorting methods
 - [] Put users choice making in an interface
-- [] Incorporate MVC
-- [] Complete readme file
-- [] Incorporate SOLID principles
 - [] Use demo repo for the factory method (switch statements)
-- [] Implement OOP principles
 - [] Include ability for users to choose how many numbers in array
-- [] Implement Facade pattern
+
+- [] Complete readme file
+
+- [] Move all main method contents into own files
 - [] Remove repetitive code from main method
+
+- [] Incorporate MVC - & label/comment
+- [] Incorporate SOLID principles - & label/comment
+- [] Implement OOP principles - & label/comment
+- [] Implement Facade pattern - & label/comment
+
 - [] Add testing to project
 - [] Add exception handling try/catch code blocks
 - [] Complete part 2 of assignment

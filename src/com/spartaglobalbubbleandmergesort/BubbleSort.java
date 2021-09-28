@@ -14,12 +14,12 @@ public class BubbleSort {
         return anyNum;
     }
 
-    public static void generateRandArrayOfNums(){
+    public static void generateRandArrayOfNums(int userNum){
         // empty arraylist of integers
         ArrayList<Integer> allNumbers = new ArrayList<>();
         // random numbers
         Random bubbleRandom = new Random();
-        for(int i = 0; i < 8; i++){
+        for(int i = 0; i < userNum; i++){
             BubbleSort bubbleSort = new BubbleSort(bubbleRandom.nextInt(101));
             allNumbers.add(bubbleSort.getAnyNum());
         }

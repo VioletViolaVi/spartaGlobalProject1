@@ -20,7 +20,7 @@ public class Main {
                 long nanoTimeBefore = System.nanoTime();
 
                 /* Bubble Sort */
-                BubbleSort.generateRandArrayOfNums();
+                BubbleSort.generateRandArrayOfNums(userNumResponse);
 
                 // records nano time from start of sorting
                 long nanoTimeAfter = System.nanoTime();
