@@ -1,4 +1,4 @@
-package com.spartaglobalbubbleandmergesort.spartaglobalbubblesort;
+package com.spartaglobalbubbleandmergesort;
 
 import java.util.ArrayList;
 import java.util.Random;

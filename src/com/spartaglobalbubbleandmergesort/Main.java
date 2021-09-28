@@ -1,7 +1,4 @@
-package com.spartaglobalbubbleandmergesort.mainmethod;
-
-import com.spartaglobalbubbleandmergesort.spartaglobalbubblesort.BubbleSort;
-import com.spartaglobalbubbleandmergesort.spartaglobalmergesort.MergeSort;
+package com.spartaglobalbubbleandmergesort;
 
 import java.util.Scanner;
 
@@ -11,6 +8,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which sorting method would you like? Enter Bubble or Merge?");
         String userResponse = scanner.next();
+        System.out.println("How many numbers would you like in your array?");
+        int userNumResponse = scanner.nextInt();
 
         // continues until a sorting type is selected
         boolean continueSorting = true;
