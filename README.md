@@ -37,7 +37,20 @@ This product is for users who want to input a certain number of numbers and see 
 - This switch statement allows users to select either the Bubble or Merge sort class and view the array of numbers arranged with their chosen sort.
 
 ## Testing
-(testing goes here)
+### ```Main``` Class
+- #
+### ```BubbleSort``` Class
+- #
+### ```MergeSort``` Class
+- #
+### ```BubbleSortInterface``` Interface
+- #
+### ```MergeSortInterface``` Interface
+- #
+### ```BothSortsInterface``` Interface
+- #
+### ```UsersChoicesInterface``` Interface
+- #
 
 ## Deployment
 (deployment goes here)
