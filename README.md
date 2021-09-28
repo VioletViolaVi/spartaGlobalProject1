@@ -1,6 +1,16 @@
 # Bubble and Merge Sorters
+This Bubble and Merge sorter project is about sorting a list of random numbers, in ascending order, requested by the Product Owner.
+It works by prompting users to input the number of numbers they would like to be sorted in the array.
+Users will also be prompted to choose which sorting method they would like the numbers to be arranged by.
+Their choices are between Bubble and Merge sort.
+Using the information provided by the users, they will be shown how their number array arranged in ascending order.
+They will also be shown how long it took the method to sort the array, using the nanoTime() method.
+This product is for users who want to input a certain number of numbers and see them get arranged in order, as well as how long it took. 
 
-This project is about allowing users to decide which out of the two sorters i.e.: Bubble and Merge, they would like to use.
+
+
+
+
 ## To do list:
 - [x] Create merge sort function
 - [x] Include nano time function
