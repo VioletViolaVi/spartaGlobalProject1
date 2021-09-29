@@ -1,4 +1,8 @@
-package com.spartaglobalbubbleandmergesort;
+package com.spartaglobalbubbleandmergesort.views;
+
+import com.spartaglobalbubbleandmergesort.BothSortsInterface;
+import com.spartaglobalbubbleandmergesort.BubbleSortInterface;
+import com.spartaglobalbubbleandmergesort.MergeSortInterface;
 
 public interface UsersChoicesInterface extends BothSortsInterface {
     static void loopedUserAnswers() {
