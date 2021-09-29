@@ -17,19 +17,16 @@ This product is for users who want to input a certain number of numbers and see 
 - It also has a method which overrides the abstract signature in the ```BubbleSortInterface``` file.
 ### ```MergeSort``` Class
 - This class implements the ```MergeSortInterface``` interface which is responsible for sorting the random numbers using the Merge method.
-### ```BubbleSortInterface``` Interface
-- This interface extends from the ```BothSortsInterface``` interface.
-- It is responsible for generating a random array of numbers, with the number of numbers decided by the user included.
-- It contains the method responsible for sorting the array of numbers, following the conventional Bubble procedure.
-- It also prints out the array before and after the sorting process as well as how long it took, using the ```nanoTime()``` method.
-### ```MergeSortInterface``` Interface
-- This interface extends from the ```BothSortsInterface``` interface.
-- It is responsible for dividing and merging 2 sub arrays, from the array of numbers generated.
-- It also prints out the array before and after the sorting process as well as how long it took, using the ```nanoTime()``` method.
-### ```BothSortsInterface``` Interface
+### ```QuickSort``` Class
+- This class implements the ```AllSortsInterface``` interface.
+- It is responsible for sorting an array of numbers using the Quick sorting algorithm.
+### ```AllSorts``` Class
+- This class contains all the instances made from each sort's classes, so their objects produced could have methods applied to them.
+### ```AllSortsInterface``` Interface
 - This interface is inherited by the ```UsersChoicesInterface``` interface.
 - It is responsible for calculating the amount of nanoseconds spent, sorting the array of numbers.
 - The ```nanoEnd()``` method is used to print out the total number of nanoseconds taken, for the user to see.
+- This also stores the user's sort and number choice.
 ### ```UsersChoicesInterface``` Interface
 - This interface inherits the ```BothSortsInterface``` interface.
 - It is responsible for printing out the instruction to the user, for them to type in which sort they want to use to rearrange their array of random numbers.
@@ -43,17 +40,35 @@ This product is for users who want to input a certain number of numbers and see 
 - #
 ### ```MergeSort``` Class
 - #
-### ```BubbleSortInterface``` Interface
+### ```QuickSort``` Class
 - #
-### ```MergeSortInterface``` Interface
+### ```AllSorts``` Class
 - #
-### ```BothSortsInterface``` Interface
+### ```AllSortsInterface``` Interface
 - #
 ### ```UsersChoicesInterface``` Interface
 - #
 
 ## Deployment
-(deployment goes here)
+The following procedures can be taken to deploy this project:
+1. First enter the repository section of GitHub to deploy the project link that contains the name of this project.
+2. Then, click the settings tab underneath the 'spartaGlobalProject1' heading, to enter its settings.
+3. Next, scroll down the settings page until the sub-title “GitHub Pages” is found.
+4. Later, locate the sub-title called “Source”, under “GitHub Pages”.
+5. Under the “Source” sub-title, click on the 'None' button to reveal its dropdown menu.
+6. Then, select the dropdown menu the option called 'master branch'.
+7. Refresh the page to automatically deploy the project.
+8. Finally, access the link to the project in the 'GitHub Pages' section.
+
+## Running the code locally
+In order to locally run this code, this project would have to be cloned from GitHub using the following steps:
+1. First enter the list of repositories section of GitHub.
+2. Then, under the repository name of the project, click on the “Clone or download” button.
+3. Next, when in the dropdown “Clone with HTTPS” section click the clipboard button next to the URL to copy the repository's clone URL.
+4. Afterwards, enter into the local IDE and open Git Bash.
+5. Then, change the current working directory into the location of where the cloned directory is to be made.
+6. Next, type in “git clone” and paste in the URL that was copied earlier from the “Clone with HTTPS” section i.e.:git clone: https://github.com/VioletViolaVi/spartaGlobalProject1.git
+7. Lastly, tap the enter button on the keyboard to create the local clone.
 
 ## Credits
 - [Generating a random array of integers](https://www.tutorialspoint.com/generate-a-random-array-of-integers-in-java)
@@ -84,9 +99,13 @@ This product is for users who want to input a certain number of numbers and see 
 
 - [] Add testing to project
 - [] Add exception handling try/catch code blocks
-- [] Complete part 2 of assignment
+- [] Add maven
+- [] Add log4
 
-- [] Incorporate MVC - & label/comment (all but 'UsersChoices' are pretty much the M in MVC)
+- [] Complete all parts of assignment based on word docs on teams
+
+- [] Incorporate MVC - & label/comment
 - [] Incorporate SOLID principles - & label/comment
 - [] Implement OOP principles - & label/comment
 - [] Implement Facade pattern - & label/comment
+- [] Implement factory method - & label/comment
