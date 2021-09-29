@@ -8,7 +8,12 @@ public interface AllSortsInterface {
 
     // user's sort choice input
     Scanner scanner = new Scanner(System.in);
+
+    // user's sort choice lower case
     String userSortChoice = scanner.next().toLowerCase();
+
+    // user's num choice
+    int userNumResponse = scanner.nextInt();
 
     static void nanoEnd() {
         // nano time at end
@@ -18,8 +23,13 @@ public interface AllSortsInterface {
         System.out.println("Time: " + nanoLength + " seconds");
     }
 
-    // getter for variable
+    // getters for variables
     static String getUserSortInput() {
         return userSortChoice;
+    }
+
+    // getters for variables
+    static int getUserNumInput() {
+        return userNumResponse;
     }
 }

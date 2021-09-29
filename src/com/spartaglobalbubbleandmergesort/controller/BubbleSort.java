@@ -24,14 +24,6 @@ public class BubbleSort{
     }
 
     public void generateRandArrayOfNums(int userNum) {
-        try {
-
-        }
-        catch(Exception e) {
-            System.out.println(e + " Something went wrong.");
-        }
-
-
         // empty arraylist of integers
         ArrayList<Integer> allNumbers = new ArrayList<>();
         // random numbers
