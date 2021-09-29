@@ -97,5 +97,8 @@ public class MergeSort {
         // print after merge sorting
         System.out.println("\nAfter merge sorting: ");
         printArray(array);
+        System.out.println();
+
+        BothSortsInterface.nanoEnd();
     }
 }
