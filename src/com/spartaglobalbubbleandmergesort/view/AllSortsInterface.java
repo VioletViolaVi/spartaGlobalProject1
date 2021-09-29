@@ -1,4 +1,4 @@
-package com.spartaglobalbubbleandmergesort.controller;
+package com.spartaglobalbubbleandmergesort.view;
 
 import java.util.Scanner;
 

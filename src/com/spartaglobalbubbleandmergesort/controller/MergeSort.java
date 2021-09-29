@@ -1,5 +1,7 @@
 package com.spartaglobalbubbleandmergesort.controller;
 
+import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
+
 import java.util.Random;
 /* below class doesn't seem to be in use... */
 public class MergeSort {

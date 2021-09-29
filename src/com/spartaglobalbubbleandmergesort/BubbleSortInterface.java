@@ -1,6 +1,6 @@
 //package com.spartaglobalbubbleandmergesort.controller;
 //
-//import com.spartaglobalbubbleandmergesort.controller.AllSortsInterface;
+//import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
 //import com.spartaglobalbubbleandmergesort.controller.BubbleSort;
 //
 //import java.util.ArrayList;
