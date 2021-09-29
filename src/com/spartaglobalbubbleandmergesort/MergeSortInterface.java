@@ -1,10 +1,10 @@
 //package com.spartaglobalbubbleandmergesort.controller;
 //
-//import com.spartaglobalbubbleandmergesort.controller.BothSortsInterface;
+//import com.spartaglobalbubbleandmergesort.controller.AllSortsInterface;
 //
 //import java.util.Random;
 //
-//public interface MergeSortInterface extends BothSortsInterface {
+//public interface MergeSortInterface extends AllSortsInterface {
 //    /*
 //        - merge 2 sub arrays from array[]
 //        - 1st sub array is array[firstNum...middleNum]
@@ -103,6 +103,6 @@
 //        printArray(array);
 //        System.out.println();
 //
-//        BothSortsInterface.nanoEnd();
+//        AllSortsInterface.nanoEnd();
 //    }
 //}

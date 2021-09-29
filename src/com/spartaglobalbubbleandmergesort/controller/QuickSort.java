@@ -2,7 +2,7 @@ package com.spartaglobalbubbleandmergesort.controller;
 
 import java.util.Random;
 
-public class QuickSort implements BothSortsInterface{
+public class QuickSort implements AllSortsInterface {
 
     static void swap(int[] arr, int i, int j){
         int temp = arr[i];
@@ -55,7 +55,7 @@ public class QuickSort implements BothSortsInterface{
         System.out.println();
     }
 
-    public void generateRandomQuickArrayOfInts(int userNum) {
+    public void generateRandArrayOfNums(int userNum) {
         Random quickRand = new Random();
         int[] array = new int[userNum];
 
@@ -73,7 +73,6 @@ public class QuickSort implements BothSortsInterface{
         System.out.println("After quick sorting: ");
         printArray(array, userNum);
 
-        BothSortsInterface.nanoEnd();
+        AllSortsInterface.nanoEnd();
     }
-
 }

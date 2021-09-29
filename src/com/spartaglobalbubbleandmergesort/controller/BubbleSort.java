@@ -21,7 +21,15 @@ public class BubbleSort{
         this.anyNum = anyNum;
     }
 
-    public static void generateRandArrayOfNums(int userNum) {
+    public void generateRandArrayOfNums(int userNum) {
+        try {
+
+        }
+        catch(Exception e) {
+            System.out.println(e + " Something went wrong.");
+        }
+
+
         // empty arraylist of integers
         ArrayList<Integer> allNumbers = new ArrayList<>();
         // random numbers
@@ -65,6 +73,6 @@ public class BubbleSort{
         }
         System.out.println();
 
-        BothSortsInterface.nanoEnd();
+        AllSortsInterface.nanoEnd();
     }
 }

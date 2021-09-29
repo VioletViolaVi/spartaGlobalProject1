@@ -79,7 +79,7 @@ public class MergeSort {
         }
     }
 
-    public static void generateRandomArrayOfInts(int userNum){
+    public void generateRandArrayOfNums(int userNum){
         // generate 10 random ints for merge sorting
         Random mergeRand = new Random();
         int[] array = new int[userNum];
@@ -99,6 +99,6 @@ public class MergeSort {
         printArray(array);
         System.out.println();
 
-        BothSortsInterface.nanoEnd();
+        AllSortsInterface.nanoEnd();
     }
 }

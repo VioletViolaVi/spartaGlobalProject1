@@ -2,7 +2,7 @@ package com.spartaglobalbubbleandmergesort.controller;
 
 import java.util.Scanner;
 
-public interface BothSortsInterface {
+public interface AllSortsInterface {
     // nano time at start
     long nanoStart = System.nanoTime();
 
@@ -14,8 +14,8 @@ public interface BothSortsInterface {
         // nano time at end
         long nanoEnd = System.nanoTime();
 
-        long nanoLength = nanoEnd - nanoStart;
-        System.out.println("Nano seconds: " + nanoLength);
+        long nanoLength = (nanoEnd - nanoStart) / 1000000000;
+        System.out.println("Time: " + nanoLength + " seconds");
     }
 
     // getter for variable

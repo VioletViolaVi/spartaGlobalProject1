@@ -1,20 +1,18 @@
 package com.spartaglobalbubbleandmergesort.view;
 
-import com.spartaglobalbubbleandmergesort.controller.BothSortsInterface;
+import com.spartaglobalbubbleandmergesort.controller.AllSortsInterface;
 import com.spartaglobalbubbleandmergesort.controller.BubbleSort;
 import com.spartaglobalbubbleandmergesort.controller.MergeSort;
 import com.spartaglobalbubbleandmergesort.controller.QuickSort;
 
-public interface UsersChoicesInterface extends BothSortsInterface {
-    com.spartaglobalbubbleandmergesort.controller.MergeSort MergeSort = null;
-    com.spartaglobalbubbleandmergesort.controller.MergeSort QuickSort = null;
+public interface UsersChoicesInterface extends AllSortsInterface {
 
     static void loopedUserAnswers() {
         // allows user to input response
         System.out.println("Choose one: Bubble, Merge or Quick?");
 
         // outcomes based on user input
-        switch (BothSortsInterface.getUserSortInput()) {
+        switch (AllSortsInterface.getUserSortInput()) {
             case "bubble":
                 System.out.println("Choose a number");
                 int userNumResponse = scanner.nextInt();
@@ -24,16 +22,17 @@ public interface UsersChoicesInterface extends BothSortsInterface {
             case "merge":
                 System.out.println("Choose a number");
                 userNumResponse = scanner.nextInt();
-                MergeSort.generateRandomArrayOfInts(userNumResponse);
+                MergeSort mergeSort = new MergeSort();
+                mergeSort.generateRandArrayOfNums(userNumResponse); // generateRandArrayOfInts
             break;
             case "quick":
                 System.out.println("Choose a number");
                 userNumResponse = scanner.nextInt();
                 QuickSort quickSort = new QuickSort();
-                quickSort.generateRandomQuickArrayOfInts(userNumResponse);
+                quickSort.generateRandArrayOfNums(userNumResponse); // generateRandomQuickArrayOfInts
             break;
             default:
-                System.out.println("You can only choose between Bubble and Merge.");
+                System.out.println("You can only choose between Bubble, Merge or Quick.");
             break;
         }
     }

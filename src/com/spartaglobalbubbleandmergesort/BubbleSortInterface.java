@@ -1,12 +1,12 @@
 //package com.spartaglobalbubbleandmergesort.controller;
 //
-//import com.spartaglobalbubbleandmergesort.controller.BothSortsInterface;
+//import com.spartaglobalbubbleandmergesort.controller.AllSortsInterface;
 //import com.spartaglobalbubbleandmergesort.controller.BubbleSort;
 //
 //import java.util.ArrayList;
 //import java.util.Random;
 //
-//public interface BubbleSortInterface extends BothSortsInterface {
+//public interface BubbleSortInterface extends AllSortsInterface {
 //    // needed for overriding in BubbleSort class
 //    void BubbleSort(int anyNum);
 //
@@ -54,6 +54,6 @@
 //        }
 //        System.out.println();
 //
-//        BothSortsInterface.nanoEnd();
+//        AllSortsInterface.nanoEnd();
 //    }
 //}
