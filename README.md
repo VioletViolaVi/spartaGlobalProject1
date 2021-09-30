@@ -1,4 +1,4 @@
-# Bubble and Merge Sorters
+# Bubble, Merge and Quick Sorters
 This Bubble and Merge sorter project is about sorting a list of random numbers, in ascending order, requested by the Product Owner.
 It works by prompting users to input the number of numbers they would like to be sorted in the array.
 Users will also be prompted to choose which sorting method they would like the numbers to be arranged by.
@@ -94,14 +94,15 @@ In order to locally run this code, this project would have to be cloned from Git
 - [x] Put users choice making in an interface
 - [x] Use demo repo for the factory method (switch statements)
 - [x] Remove repetitive code from main method
-
+- [x] Use maven
+- 
 - [] Complete readme file
 
 - [] Add testing to project
 - [] Add exception handling try/catch code blocks
-- [] Add maven
-- [] Add log4
 
+- [] Use log4
+- [] Use jUnit
 - [] Complete all parts of assignment based on word docs on teams
 
 - [] Incorporate MVC - & label/comment

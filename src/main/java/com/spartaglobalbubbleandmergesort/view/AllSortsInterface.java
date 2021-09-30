@@ -1,6 +1,5 @@
 package com.spartaglobalbubbleandmergesort.view;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public interface AllSortsInterface {
@@ -11,7 +10,7 @@ public interface AllSortsInterface {
     Scanner scanner = new Scanner(System.in);
 
     // user's sort choice lower case
-    String userSortChoice = scanner.next().toLowerCase().replace(" ", "");
+    String userSortChoice = scanner.next().toLowerCase().replaceAll(" ", "");
 
     // user's num choice
     int userNumResponse = scanner.nextInt();
