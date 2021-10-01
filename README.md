@@ -111,3 +111,6 @@ In order to locally run this code, this project would have to be cloned from Git
 
 - [] Incorporate MVC - & label/comment
 - [] Implement Facade pattern - & label/comment
+
+- [] Complete binary tree sort
+
