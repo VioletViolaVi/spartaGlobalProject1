@@ -10,7 +10,7 @@ import java.util.Random;
     - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
     - Liskov substitution principle applied as the BubbleSort class logically syncs with the NumberArrays interface
 */
-public class BubbleSort implements NumberArrays {
+public class BubbleSort extends AllSorts implements NumberArrays {
     // instance variable for generating random numbers
     private int anyNum;
 

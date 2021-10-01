@@ -9,7 +9,7 @@ import java.util.Random;
     - Open closed principle applied so the interface choices and behaviours can be extended from the NumberArrays interface instead of having their code modified.
     - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
 */
-public class QuickSort implements NumberArrays {
+public class QuickSort extends AllSorts implements NumberArrays {
 
     // swap numbers
     static void swap(int[] arr, int i, int j){

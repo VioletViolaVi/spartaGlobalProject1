@@ -9,7 +9,7 @@ import java.util.Random;
     - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
     - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
 */
-public class MergeSort implements NumberArrays {
+public class MergeSort extends AllSorts implements NumberArrays {
     // merge 2 sub arrays from array[]: 1st sub array is array[firstNum...middleNum], 2nd sub array is array[middleNum+1...rightNum]
     public static void mergeSorter(int array[], int firstNum, int middleNum, int rightNum) {
         // find sizes of 2 sub arrays to be merged
