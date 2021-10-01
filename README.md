@@ -96,7 +96,7 @@ In order to locally run this code, this project would have to be cloned from Git
 - [x] Use demo repo for the factory method (switch statements)
 - [x] Remove repetitive code from main method
 - [x] Use maven
-- 
+
 - [] Complete readme file
 
 - [] Add testing to project
@@ -104,6 +104,7 @@ In order to locally run this code, this project would have to be cloned from Git
 
 - [] Use log4
 - [] Use jUnit
+
 - [] Complete all parts of assignment based on word docs on teams
 
 - [] Incorporate MVC - & label/comment
