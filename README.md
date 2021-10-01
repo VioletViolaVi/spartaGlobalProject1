@@ -96,6 +96,7 @@ In order to locally run this code, this project would have to be cloned from Git
 - [x] Use demo repo for the factory method (switch statements)
 - [x] Remove repetitive code from main method
 - [x] Use maven
+- [x] Incorporate SOLID principles - & label/comment
 
 - [] Complete readme file
 - [] Add testing to project
@@ -107,7 +108,6 @@ In order to locally run this code, this project would have to be cloned from Git
 - [] Complete all parts of assignment based on word docs on teams
 
 - [] Incorporate MVC - & label/comment
-- [] Incorporate SOLID principles - & label/comment
 - [] Implement OOP principles - & label/comment
 - [] Implement Facade pattern - & label/comment
 - [] Implement factory method - & label/comment

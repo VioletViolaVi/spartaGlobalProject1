@@ -1,17 +1,18 @@
-package com.spartaglobalbubbleandmergesort.controller;
+package com.spartaglobalsortmanager.controller;
 
-import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.NumberArrays;
 
 import java.util.ArrayList;
 import java.util.Random;
-
-public class BubbleSort implements NumberArrays{
+/*
+    - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Bubble Sort algorithm.
+    - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
+    - Liskov substitution principle applied as the BubbleSort class logically syncs with the NumberArrays interface
+*/
+public class BubbleSort implements NumberArrays {
     // instance variable for generating random numbers
     private int anyNum;
-
-    public BubbleSort() {
-
-    }
 
     // how instance variable is accessed outside this class
     public int getAnyNum() {
@@ -23,6 +24,7 @@ public class BubbleSort implements NumberArrays{
         this.anyNum = anyNum;
     }
 
+    // creates array of random numbers
     public void generateRandArrayOfNums(int userNum) {
         // empty arraylist of integers
         ArrayList<Integer> allNumbers = new ArrayList<>();
@@ -36,6 +38,7 @@ public class BubbleSort implements NumberArrays{
         bubbleSorter(allNumbers);
     }
 
+    // sort numbers using bubble algorithm
     public static void bubbleSorter(ArrayList<Integer> intArray) {
         // length of array
         int intArrayLength = intArray.size();
@@ -68,5 +71,9 @@ public class BubbleSort implements NumberArrays{
         System.out.println();
 
         AllSortsInterface.nanoEnd();
+    }
+
+    public BubbleSort() {
+
     }
 }

@@ -1,7 +1,11 @@
-package com.spartaglobalbubbleandmergesort.view;
+package com.spartaglobalsortmanager.view;
 
 import java.util.Scanner;
 
+/*
+    - Single responsibility principle applied, ensuring the only responsibility of this interface is to inform the user how many seconds it took to complete
+    - Interface segregation principle applied as the classes implementing this interface aren't implementing anything they don't use
+*/
 public interface AllSortsInterface {
     // nano time at start
     long nanoStart = System.nanoTime();
@@ -15,10 +19,12 @@ public interface AllSortsInterface {
     // user's num choice
     int userNumResponse = scanner.nextInt();
 
+    // calculates how long nano time is
     static void nanoEnd() {
         // nano time at end
         long nanoEnd = System.nanoTime();
 
+        // total nano time
         long nanoLength = (nanoEnd - nanoStart) / 1000000000;
         System.out.println("Time: " + nanoLength + " seconds");
     }

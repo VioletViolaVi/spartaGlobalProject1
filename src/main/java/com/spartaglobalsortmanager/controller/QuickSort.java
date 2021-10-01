@@ -1,17 +1,24 @@
-package com.spartaglobalbubbleandmergesort.controller;
+package com.spartaglobalsortmanager.controller;
 
-import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.NumberArrays;
 
 import java.util.Random;
+/*
+    - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Quick Sort algorithm.
+    - Open closed principle applied so the interface choices and behaviours can be extended from the NumberArrays interface instead of having their code modified.
+    - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
+*/
+public class QuickSort implements NumberArrays {
 
-public class QuickSort implements AllSortsInterface, NumberArrays {
-
+    // swap numbers
     static void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
+    // parts out numbers
     static int partition(int[] arr, int low, int high){
         // pivot
         int pivot = arr[high];
@@ -36,6 +43,7 @@ public class QuickSort implements AllSortsInterface, NumberArrays {
         return (i + 1);
     }
 
+    // sorts using quick sort algorithm
     static void quickSort(int[] arr, int low, int high){
         if (low < high){
             // pi is partitioning index, arr[p]
@@ -57,6 +65,7 @@ public class QuickSort implements AllSortsInterface, NumberArrays {
         System.out.println();
     }
 
+    // creates array of random numbers
     public void generateRandArrayOfNums(int userNum) {
         Random quickRand = new Random();
         int[] array = new int[userNum];

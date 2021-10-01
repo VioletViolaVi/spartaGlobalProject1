@@ -1,13 +1,16 @@
-package com.spartaglobalbubbleandmergesort.controller;
+package com.spartaglobalsortmanager.controller;
 
-import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.AllSortsInterface;
+import com.spartaglobalsortmanager.view.NumberArrays;
 
 import java.util.Random;
-/* below class doesn't seem to be in use... */
-public class MergeSort implements NumberArrays{
-    // merge 2 sub arrays from array[]
-    // 1st sub array is array[firstNum...middleNum]
-    // 2nd sub array is array[middleNum+1...rightNum]
+/*
+    - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Merge Sort algorithm.
+    - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
+    - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
+*/
+public class MergeSort implements NumberArrays {
+    // merge 2 sub arrays from array[]: 1st sub array is array[firstNum...middleNum], 2nd sub array is array[middleNum+1...rightNum]
     public static void mergeSorter(int array[], int firstNum, int middleNum, int rightNum) {
         // find sizes of 2 sub arrays to be merged
         int arraySize1 = middleNum - firstNum + 1;
@@ -81,6 +84,7 @@ public class MergeSort implements NumberArrays{
         }
     }
 
+    // creates array of random numbers
     public void generateRandArrayOfNums(int userNum){
         // generate 10 random ints for merge sorting
         Random mergeRand = new Random();

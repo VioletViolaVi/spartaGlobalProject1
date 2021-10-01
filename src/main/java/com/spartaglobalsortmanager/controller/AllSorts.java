@@ -1,7 +1,12 @@
-package com.spartaglobalbubbleandmergesort.controller;
+package com.spartaglobalsortmanager.controller;
 
-import com.spartaglobalbubbleandmergesort.view.UsersChoicesInterface;
+import com.spartaglobalsortmanager.view.UsersChoicesInterface;
 
+/*
+    - Single responsibility principle applied so AllSort class has 1 responsibility of creating new instances of the respective sort algorithms
+    - Open closed principle applied as this code will not be modified, instead it is the extension of the UsersChoicesInterface interface
+    - Liskov substitution principle applied as the AllSorts class logically syncs with the UsersChoicesInterface interface
+*/
 public class AllSorts implements UsersChoicesInterface {
 
     public static void bubbleInstanceOf(int userNumResponse){

@@ -1,11 +1,12 @@
-package com.spartaglobalbubbleandmergesort.main;
+package com.spartaglobalsortmanager.main;
 
-import com.spartaglobalbubbleandmergesort.view.UsersChoicesInterface;
+import com.spartaglobalsortmanager.view.UsersChoicesInterface;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 public class Main {
     public static void main(String[] args) {
+        // calls whole project separated in super/subclasses & interfaces
         UsersChoicesInterface.userAnswers();
 
         Logger logger = Logger.getLogger("My Application Logger");
