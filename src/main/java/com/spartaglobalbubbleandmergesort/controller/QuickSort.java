@@ -4,7 +4,7 @@ import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
 
 import java.util.Random;
 
-public class QuickSort implements AllSortsInterface {
+public class QuickSort implements AllSortsInterface, NumberArrays {
 
     static void swap(int[] arr, int i, int j){
         int temp = arr[i];

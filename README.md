@@ -98,11 +98,10 @@ In order to locally run this code, this project would have to be cloned from Git
 - [x] Use maven
 
 - [] Complete readme file
-
 - [] Add testing to project
 - [] Add exception handling try/catch code blocks
 
-- [] Use log4
+- [] Use log4j
 - [] Use jUnit
 
 - [] Complete all parts of assignment based on word docs on teams

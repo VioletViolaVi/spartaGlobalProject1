@@ -5,7 +5,7 @@ import com.spartaglobalbubbleandmergesort.view.AllSortsInterface;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class BubbleSort{
+public class BubbleSort implements NumberArrays{
     // instance variable for generating random numbers
     private int anyNum;
 
