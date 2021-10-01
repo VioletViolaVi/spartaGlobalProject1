@@ -10,17 +10,6 @@ public class Main {
         UsersChoicesInterface.userAnswers();
 
 
-
-
-
-        GFG tree = new GFG();
-        int arr[] = {5, 4, 7, 2, 11};
-        tree.treeins(arr);
-        tree.inorderRec(tree.root);
-
-
-
-
         Logger logger = Logger.getLogger("My Application Logger");
 
         PropertyConfigurator.configure("log4j.properties");
