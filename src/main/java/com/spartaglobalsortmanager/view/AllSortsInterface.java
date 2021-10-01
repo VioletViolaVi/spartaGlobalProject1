@@ -5,6 +5,7 @@ import java.util.Scanner;
 /*
     - Single responsibility principle applied, ensuring the only responsibility of this interface is to inform the user how many seconds it took to complete
     - Interface segregation principle applied as the classes implementing this interface aren't implementing anything they don't use
+    - Encapsulation principle of Object-Oriented Programming implemented as the AllSortsInterface interface has the getUserSortInput() and getUserNumInput() methods that enable objects calling these methods to focus on how to use the methods and not what's in it.
 */
 public interface AllSortsInterface {
     // nano time at start

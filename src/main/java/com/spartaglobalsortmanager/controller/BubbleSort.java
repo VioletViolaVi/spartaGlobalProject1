@@ -9,6 +9,8 @@ import java.util.Random;
     - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Bubble Sort algorithm.
     - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
     - Liskov substitution principle applied as the BubbleSort class logically syncs with the NumberArrays interface
+    - Inheritance principle of Object-Oriented Programming implemented as the BubbleSort subclass inherits from the AllSorts superclass
+    - Polymorphism principle of Object-Oriented Programming implemented as the abstract generateRandArrayOfNums(), implemented from NumberArrays, has its code block is filled in.
 */
 public class BubbleSort extends AllSorts implements NumberArrays {
     // instance variable for generating random numbers

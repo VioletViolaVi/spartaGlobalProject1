@@ -8,6 +8,8 @@ import java.util.Random;
     - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Merge Sort algorithm.
     - Open closed principle applied as this code will not be modified, instead it is the extension of the NumberArrays interface
     - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
+    - Inheritance principle of Object-Oriented Programming implemented as the MergeSort subclass inherits from the AllSorts superclass
+    - Polymorphism principle of Object-Oriented Programming implemented as the abstract generateRandArrayOfNums(), implemented from NumberArrays, has its code block is filled in.
 */
 public class MergeSort extends AllSorts implements NumberArrays {
     // merge 2 sub arrays from array[]: 1st sub array is array[firstNum...middleNum], 2nd sub array is array[middleNum+1...rightNum]

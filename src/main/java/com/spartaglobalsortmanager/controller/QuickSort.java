@@ -8,6 +8,8 @@ import java.util.Random;
     - Single responsibility principle applied, ensuring the only responsibility of this class is to randomly generate numbers using the Quick Sort algorithm.
     - Open closed principle applied so the interface choices and behaviours can be extended from the NumberArrays interface instead of having their code modified.
     - Liskov substitution principle applied as the MergeSort class logically syncs with the NumberArrays interface
+    - Inheritance principle of Object-Oriented Programming implemented as the QuickSort subclass inherits from the AllSorts superclass
+    - Polymorphism principle of Object-Oriented Programming implemented as the abstract generateRandArrayOfNums(), implemented from NumberArrays, has its code block is filled in.
 */
 public class QuickSort extends AllSorts implements NumberArrays {
 

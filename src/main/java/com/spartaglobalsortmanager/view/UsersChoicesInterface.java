@@ -6,6 +6,9 @@ import com.spartaglobalsortmanager.controller.*;
     - Single responsibility principle applied as interface has 1 responsibility of displaying the results of the users choices.
     - Open closed principle applied so the sort choices and behaviours can be extended and not have the code modified.
     - Liskov substitution principle also applied as the userAnswers() is logically sync to the AllSortsInterface it implements
+    - Factory method implemented so the objects made in this interface can be altered by subclasses
+    - Encapsulation principle of Object-Oriented Programming implemented as the UsersChoicesInterface interface uses methods called on by objects without providing detail on how the methods work.
+    - Inheritance principle of Object-Oriented Programming implemented as the UsersChoicesInterface interface inherits from the AllSortsInterface interface.
 */
 public interface UsersChoicesInterface extends AllSortsInterface {
 
