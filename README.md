@@ -1,8 +1,8 @@
 # Bubble, Merge and Quick Sorters
-This Bubble and Merge sorter project is about sorting a list of random numbers, in ascending order, requested by the Product Owner.
+This sort manager project is about sorting a list of random numbers, in ascending order, requested by the Product Owner.
 It works by prompting users to input the number of numbers they would like to be sorted in the array.
 Users will also be prompted to choose which sorting method they would like the numbers to be arranged by.
-Their choices are between Bubble and Merge sort.
+Their choices are between Bubble, Merge and Quick sort.
 Using the information provided by the users, they will be shown their number array arranged in ascending order.
 They will also be shown how long it took the respective sort type to sort the array, using the nanoTime() method.
 This product is for users who want to input a certain number of numbers and see them get arranged in ascending order, as well as how long it took. 
@@ -72,8 +72,9 @@ In order to locally run this code, this project would have to be cloned from Git
 
 ## Credits
 - [Generating a random array of integers](https://www.tutorialspoint.com/generate-a-random-array-of-integers-in-java)
-- [Creating a Merge Sort algorithm](https://www.geeksforgeeks.org/merge-sort/)
 - [Creating a Bubble Sort algorithm](https://www.geeksforgeeks.org/bubble-sort/)
+- [Creating a Merge Sort algorithm](https://www.geeksforgeeks.org/merge-sort/)
+- [Creating a Quick Sort algorithm](https://www.geeksforgeeks.org/quick-sort/)
 - [Scanner class information](https://www.w3schools.com/java/java_user_input.asp)
 - [Utilising the Scanner class](https://www.w3schools.com/java/showjava.asp?filename=demo_api_scanner)
 

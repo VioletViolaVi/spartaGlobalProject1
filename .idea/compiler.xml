@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BubbleAndMergeSort" />
+        <module name="SortManager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BubbleAndMergeSort" target="16" />
+      <module name="SortManager" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
