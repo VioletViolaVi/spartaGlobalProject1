@@ -34,20 +34,8 @@ This product is for users who want to input a certain number of numbers and see 
 - This switch statement allows users to select either the Bubble or Merge sort class and view the array of numbers arranged with their chosen sort.
 
 ## Testing
-### ```Main``` Class
-- #
-### ```BubbleSort``` Class
-- #
-### ```MergeSort``` Class
-- #
-### ```QuickSort``` Class
-- #
-### ```AllSorts``` Class
-- #
-### ```AllSortsInterface``` Interface
-- #
-### ```UsersChoicesInterface``` Interface
-- #
+The random numbers generated were tested to ensure this array of numbers appeared in the terminal in ascending order. The Test done was automated.
+The input provided by the user was tested to check they had put through a number using automated testing.
 
 ## Deployment
 The following procedures can be taken to deploy this project:
@@ -81,36 +69,3 @@ In order to locally run this code, this project would have to be cloned from Git
 ## Link to previous version of this project
 - This project is a continuation of the discontinued GitHub repository:
 [(Old) Bubble & Merge Sort Project](https://github.com/VioletViolaVi/bubbleAndMergeSort)
-
-## To do list:
-- [x] Create merge sort function
-- [x] Include nano time function
-- [x] Create bubble sort function
-- [x] Use separate GitHub for project
-- [x] Combine bubble and merge sort
-- [x] Create separate packages for each sort method/interface
-- [x] Include ability for users to choose how many numbers in array
-- [x] Create interface file for both sorting methods
-- [x] Move all main method contents into own files
-- [x] Put users choice making in an interface
-- [x] Use demo repo for the factory method (switch statements)
-- [x] Remove repetitive code from main method
-- [x] Use maven
-- [x] Incorporate SOLID principles - & label/comment
-- [x] Implement factory method - & label/comment
-- [x] Implement OOP principles - & label/comment
-
-- [] Complete readme file
-- [] Add testing to project
-- [] Add exception handling try/catch code blocks
-
-- [] Use log4j
-- [] Use jUnit
-
-- [] Complete all parts of assignment based on word docs on teams
-
-- [] Incorporate MVC - & label/comment
-- [] Implement Facade pattern - & label/comment
-
-- [] Complete binary tree sort
-

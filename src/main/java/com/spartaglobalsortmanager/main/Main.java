@@ -9,13 +9,16 @@ public class Main {
         // calls whole project separated in super/subclasses & interfaces
         UsersChoicesInterface.userAnswers();
 
+        // testing random numbers being placed in order
+        RandomNumTest randomNumTest = new RandomNumTest();
+        randomNumTest.numArrInOrder();
 
-        Logger logger = Logger.getLogger("My Application Logger");
-
+        // log4j tests
+        Logger logger = Logger.getLogger("Application Logger");
         PropertyConfigurator.configure("log4j.properties");
-        logger.warn("This is a message");
-        logger.info("This is a message");
-        logger.error("This is a message");
-        logger.fatal("This is a message");
+        logger.warn("Warning message");
+        logger.info("Info message");
+        logger.error("Error message");
+        logger.fatal("Fatal message");
     }
 }

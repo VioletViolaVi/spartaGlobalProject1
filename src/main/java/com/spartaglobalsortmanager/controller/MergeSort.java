@@ -109,4 +109,9 @@ public class MergeSort extends AllSorts implements NumberArrays {
 
         AllSortsInterface.nanoEnd();
     }
+
+    // for testing
+    public int[] mergeSorter(int[] numArr) {
+        return numArr;
+    }
 }

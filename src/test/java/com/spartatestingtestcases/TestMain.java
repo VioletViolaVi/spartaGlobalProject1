@@ -11,5 +11,8 @@ public class TestMain {
     public static void main(String[] args) {
         PropertyConfigurator.configure("log4j.properties");
         logger.warn("This is a message");
+        logger.info("This is a message");
+        logger.error("This is a message");
+        logger.fatal("This is a message");
     }
 }
